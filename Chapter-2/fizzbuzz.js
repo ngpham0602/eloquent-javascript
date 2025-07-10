@@ -11,3 +11,12 @@ for (count = 0; count < 100; count = count + 1) {
         console.log(result);        
     }
 }
+// my solution 
+
+for (let n = 1; n <= 100; n++) {
+    let output = "";
+    if (n % 3 == 0) output += "Fizz";
+    if (n % 5 == 0) output += "Buzz";
+    console.log(output || n);
+}
+// book solution

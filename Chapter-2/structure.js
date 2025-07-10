@@ -1,6 +1,6 @@
 let mood = "light";
 console.log(mood);
-// light=
+// light
 
 mood = "dark";
 console.log(mood);
